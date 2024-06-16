@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(90deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%);
+}
+
+h1{
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 5vh;
+}
+h1 span{
+    color: #8025CC;
+}
+
+.convert{
+    display: block;
+    width: 40vw;
+    min-height: 25vh;
+    background: white;
+    margin: 0 auto;
+    border-radius: 2rem;
+    margin-top: 5vh;
+    box-shadow: 0 0 10px 5px lightblue;
+    border: 1px solid #ccc;
+    font-size: 1.5rem;
+    padding: 1rem;
+    font-style: italic;
+}
+.convert:focus{
+    box-shadow: 0 0 15px 4px rgba(128, 37, 204, 0.7);
+}
+
+.activateImg{
+    width: 6vw;
+    height: 6vw;
+    margin-left: 3vw;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 3vh;
+    box-shadow: 0 4px 8px 0 rgba(128, 37, 204, 0.4), 0 6px 20px 0 rgba(128, 37, 204, 0.3);
+    transition: 0.15s;
+}
+.activateImg:hover{
+    box-shadow: 0 0 15px 4px rgba(128, 37, 204, 0.7);
+}
+.voiceToText{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vh;
+}
+.voiceToTextControls p{
+    font-size: 2rem;
+    color: white;
+}
+.voiceToTextControls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.yourSpeach{
+    text-align: center;
+    font-size: 2.5rem;
+    color: beige;
+    margin-top: 3vh;
+}
+.mikroImg{
+    width: 4vw;
+    height: 4vw;
+    margin-left: 2vw;
+}
+.mikroActive{
+    box-shadow: 0 4px 8px 0 rgba(255, 165, 0, 0.4), 0 6px 20px 0 rgba(255, 165, 0, 0.3);
+}
