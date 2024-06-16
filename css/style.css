@@ -10,7 +10,7 @@ body{
 
 h1{
     color: white;
-    font-size: 4rem;
+    font-size: 5vw;
     text-align: center;
     margin-top: 5vh;
 }
@@ -56,7 +56,7 @@ h1 span{
     margin-top: 2vh;
 }
 .voiceToTextControls p{
-    font-size: 2rem;
+    font-size: 2vw;
     color: white;
 }
 .voiceToTextControls{
@@ -67,7 +67,7 @@ h1 span{
 }
 .yourSpeach{
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2.5vw;
     color: beige;
     margin-top: 3vh;
 }
@@ -78,4 +78,48 @@ h1 span{
 }
 .mikroActive{
     box-shadow: 0 4px 8px 0 rgba(255, 165, 0, 0.4), 0 6px 20px 0 rgba(255, 165, 0, 0.3);
+}
+@media(min-width: 400px) and (max-width: 800px){
+    .convert{
+        width: 60vw;
+        min-height: 20vh;
+    }
+    h1{
+        font-size: 7vw;
+    }
+    .yourSpeach{
+        font-size: 5vw;
+    }
+    .voiceToTextControls p{
+        font-size: 4.5vw;
+    }
+    .mikroImg{
+        width: 5vw;
+        height: 5vw;
+    }
+    .activateImg{
+        width: 7vw;
+        height: 7vw;
+    }
+}
+@media(max-width: 400px){
+    .convert{
+        width: 60vw;
+        min-height: 15vh;
+        font-size: 5vw;
+    }
+    .yourSpeach{
+        font-size: 7vw;
+    }
+    .voiceToTextControls p{
+        font-size: 6vw;
+    }
+    .mikroImg{
+        width: 6vw;
+        height: 6vw;
+    }
+    .activateImg{
+        width: 8vw;
+        height: 8vw;
+    }
 }
